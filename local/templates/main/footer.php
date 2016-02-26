@@ -6,9 +6,16 @@
     <div class="main">
         <!-- footer -->
         <footer>
-            <p class="floatRight"> Copyright &copy; <?echo date('Y') ?> <a href="#">Iodlovskiy Dmitriy</a> &ndash; All Rights Reserved</p>
-            <br>
-            <p class="socialIcons"> <a href="#" class="rss">RSS</a> <a href="#" class="facebook">Facebook</a> <a href="#" class="twitter">Twitter</a> </p>
+            <p class="floatRight"> Copyright &copy; <?echo date('Y') ?> <a href="#">
+                    <?$APPLICATION->IncludeComponent( "bitrix:main.include", "",
+                        Array(
+                            "COMPONENT_TEMPLATE" => ".default",
+                            "AREA_FILE_SHOW" => "file",
+                            "AREA_FILE_SUFFIX" => "inc",
+                            "EDIT_TEMPLATE" => "",
+                            "PATH" => SITE_TEMPLATE_PATH."/include_areas/author.php"
+                        ));?>
+                </a> &ndash; All Rights Reserved</p>
         </footer>
         <!-- / footer -->
     </div>
