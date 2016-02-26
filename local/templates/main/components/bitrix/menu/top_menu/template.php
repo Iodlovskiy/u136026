@@ -7,5 +7,5 @@
 		?>
 		<li><a href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a></li>
 	<? endforeach ?>
-	
+
 <? endif ?>
