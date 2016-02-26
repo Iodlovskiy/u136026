@@ -41,7 +41,7 @@
                     <nav>
                         <ul id="top_nav">
                             <li><a href="/"><img src="<?=SITE_TEMPLATE_PATH;?>/images/img1.gif" alt=""></a></li>
-                            <li><a href="#"><img src="<?=SITE_TEMPLATE_PATH;?>/images/img2.gif" alt=""></a></li>
+                            <li><a href="/contacts/"><img src="<?=SITE_TEMPLATE_PATH;?>/images/img2.gif" alt=""></a></li>
                             <li class="bg_none"><a href="#"><img src="<?=SITE_TEMPLATE_PATH;?>/images/img3.gif" alt=""></a></li>
                         </ul>
                     </nav>
