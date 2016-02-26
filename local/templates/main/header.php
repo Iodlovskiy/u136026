@@ -47,11 +47,23 @@
                     </nav>
                     <nav>
                         <ul id="menu">
-                            <li id="menu_active"><a href="index.html">Home</a></li>
-                            <li><a href="<?=SITE_TEMPLATE_PATH;?>/index-1.html">Our Aircraft</a></li>
-                            <li><a href="<?=SITE_TEMPLATE_PATH;?>/index-2.html">Safety</a></li>
-                            <li><a href="<?=SITE_TEMPLATE_PATH;?>/index-3.html">Charters</a></li>
-                            <li><a href="<?=SITE_TEMPLATE_PATH;?>/index-4.html">Contacts</a></li>
+                            <? $APPLICATION->IncludeComponent("bitrix:menu", "top_menu", Array(
+                                "COMPONENT_TEMPLATE" => ".default",
+                                "ROOT_MENU_TYPE" => "top",    // Тип меню для первого уровня
+                                "MENU_CACHE_TYPE" => "A",    // Тип кеширования
+                                "MENU_CACHE_TIME" => "3600",    // Время кеширования (сек.)
+                                "MENU_CACHE_USE_GROUPS" => "Y",    // Учитывать права доступа
+                                "MENU_CACHE_GET_VARS" => array(    // Значимые переменные запроса
+                                    0 => "",
+                                ),
+                                "MAX_LEVEL" => "1",    // Уровень вложенности меню
+                                "CHILD_MENU_TYPE" => "left",    // Тип меню для остальных уровней
+                                "USE_EXT" => "Y",    // Подключать файлы с именами вида .тип_меню.menu_ext.php
+                                "DELAY" => "N",    // Откладывать выполнение шаблона меню
+                                "ALLOW_MULTI_SELECT" => "N",    // Разрешить несколько активных пунктов одновременно
+                            ),
+                                false
+                            ); ?>
                         </ul>
                     </nav>
                 </div>
