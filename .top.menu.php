@@ -8,8 +8,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Безопасность", 
-		"/safety/", 
+		"Рейсы", 
+		"/ flight/", 
 		Array(), 
 		Array(), 
 		"" 
