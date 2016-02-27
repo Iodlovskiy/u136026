@@ -24,8 +24,8 @@ header .right {width:600px}
 #top_nav {float:right;padding:25px 0px 0 0}
 #top_nav li {float:left;padding-right:21px;margin-right:20px;background:url(../images/line_top.gif) right 0 no-repeat;padding-top:2px;padding-bottom:3px}
 #top_nav .bg_none {padding-right:0;margin:0;background:none}
-#menu {float:left;padding-top:8px;padding-left:5px;width:670px}
-#menu li {float:left;padding-left:1px}
+#menu {float:left;padding-top:8px;padding-left:5px;width:595px}
+#menu li {float:right;padding-left:1px}
 #menu li a {display:block;font-size:16px;text-transform:uppercase;color:#fff;text-decoration:none;line-height:30px;behavior:url(js/PIE.htc);position:relative;padding:0 20px;margin:1px 0}
 #menu li a:hover, #menu #menu_active a {border-bottom:1px solid #373b40;border-top:1px solid #000;background:#191a1e;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin:0}
 #banner {background:url(../images/bg_img2.jpg) 0 0 no-repeat;height:211px;padding:30px 0 0 60px}
