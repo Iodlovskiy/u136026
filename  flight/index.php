@@ -1,5 +1,12 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Title");
-?>Рейсы
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+?><?$APPLICATION->IncludeComponent(
+	"flight",
+	"",
+	Array(
+	)
+);?><br>
+ &lt;br&gt;<br>
+ &lt;br&gt;<br>
+ &lt;br&gt;<br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
