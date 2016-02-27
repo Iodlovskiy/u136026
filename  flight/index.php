@@ -7,6 +7,7 @@ $APPLICATION->SetTitle("Title");
 	Array(
 	)
 );?><br>
- &lt;br&gt;<br>
- &lt;br&gt;<br>
- &lt;br&gt;<br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<br>
+<br>
+<br>
+<br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
