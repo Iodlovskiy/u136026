@@ -1,8 +1,8 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Новости", 
-		"/", 
+		"Контакты", 
+		"/contacts/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -22,8 +22,8 @@ $aMenuLinks = Array(
 		"CBXFeatures::IsFeatureEnabled('CommonDocuments')" 
 	),
 	Array(
-		"Контакты", 
-		"/contacts/", 
+		"Новости", 
+		"/", 
 		Array(), 
 		Array(), 
 		"" 
